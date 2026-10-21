@@ -6,7 +6,7 @@ metadata:
 spec:
   description: product-service 전용 프로젝트 (Section 5 실습)
   sourceRepos:
-    - https://github.com/<내계정>/product-service-manifests.git
+    - https://github.com/point73/product-service-manifests.git
   destinations:
     - namespace: 'product-service-*'
       server: https://kubernetes.default.svc
