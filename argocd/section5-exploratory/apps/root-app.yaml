@@ -5,6 +5,8 @@ kind: Application
 metadata:
   name: root-app
   namespace: argocd
+  finalizers:
+    - resources-finalizers.argocd.argoproj.io
 spec:
   project: default
   source:
